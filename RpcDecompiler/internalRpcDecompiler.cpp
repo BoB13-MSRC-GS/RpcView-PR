@@ -789,7 +789,7 @@ BOOL __fastcall printSimpleType(
 		break;
 
 	case FC_SYSTEM_HANDLE:
-		oss << "/* FC_SYSTEM_HANDLE */ void* ";
+		oss << "/* FC_SYSTEM_HANDLE */ hyper ";
 		break;
 
 	default :
